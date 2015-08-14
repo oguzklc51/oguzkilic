@@ -26,6 +26,7 @@
 		2271AC1A1B6B9D4000FFE236 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271AC191B6B9D4000FFE236 /* BaseRequest.swift */; };
 		2271AC1C1B6BA1FD00FFE236 /* Serialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271AC1B1B6BA1FD00FFE236 /* Serialize.swift */; };
 		2271AC1F1B6BAC9A00FFE236 /* MoveRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271AC1E1B6BAC9A00FFE236 /* MoveRequest.swift */; };
+		22A75A2F1B7E184700C926A4 /* PilotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A75A2E1B7E184700C926A4 /* PilotViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		2271AC191B6B9D4000FFE236 /* BaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseRequest.swift; path = ../BaseRequest.swift; sourceTree = "<group>"; };
 		2271AC1B1B6BA1FD00FFE236 /* Serialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serialize.swift; sourceTree = "<group>"; };
 		2271AC1E1B6BAC9A00FFE236 /* MoveRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveRequest.swift; sourceTree = "<group>"; };
+		22A75A2E1B7E184700C926A4 /* PilotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PilotViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				226F45481B6A418800F15647 /* AppDelegate.swift */,
 				2271AC161B6B663C00FFE236 /* DRON-Bridging-Header.h */,
 				226F454A1B6A418800F15647 /* ViewController.swift */,
+				22A75A2E1B7E184700C926A4 /* PilotViewController.swift */,
 				226F454C1B6A418800F15647 /* Main.storyboard */,
 				226F454F1B6A418800F15647 /* Images.xcassets */,
 				226F45511B6A418800F15647 /* LaunchScreen.xib */,
@@ -300,6 +303,7 @@
 				226F454B1B6A418800F15647 /* ViewController.swift in Sources */,
 				2271AC1C1B6BA1FD00FFE236 /* Serialize.swift in Sources */,
 				2271AC0F1B6B63D700FFE236 /* AFHTTPSessionManager.m in Sources */,
+				22A75A2F1B7E184700C926A4 /* PilotViewController.swift in Sources */,
 				2271AC0E1B6B63D700FFE236 /* AFHTTPRequestOperationManager.m in Sources */,
 				2271AC101B6B63D700FFE236 /* AFNetworkReachabilityManager.m in Sources */,
 				2271AC1A1B6B9D4000FFE236 /* BaseRequest.swift in Sources */,
