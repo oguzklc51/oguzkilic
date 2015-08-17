@@ -61,11 +61,18 @@ class ViewController: UIViewController {
 
     func pilotAction(sender : UIButton) -> Void{
         pilotButton.backgroundColor = UIColor.orangeColor()
+        
+        let viewController = self.storyboard?.instantiateViewControllerWithIdentifier("PilotViewController") as! PilotViewController
+        self.navigationController?.pushViewController(viewController, animated: true)
+        
         println("button tapped")
     }
     
     func photosAction(sender : UIButton) -> Void{
         photosButton.backgroundColor = UIColor.orangeColor()
+        
+        let viewController = self.storyboard?.instantiateViewControllerWithIdentifier("PhotosViewController") as! PhotosViewController
+        self.navigationController?.pushViewController(viewController, animated: true)
         println("button tapped")
     }
 
