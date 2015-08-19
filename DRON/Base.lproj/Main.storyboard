@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--Pilot View Controller-->
+        <!--Item-->
         <scene sceneID="K5h-N7-Enn">
             <objects>
                 <viewController storyboardIdentifier="PilotViewController" id="uYj-YZ-GOv" customClass="PilotViewController" customModule="DRON" sceneMemberID="viewController">
@@ -13,13 +13,15 @@
                         <viewControllerLayoutGuide type="bottom" id="4oc-xS-cgO"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="puU-aK-ezZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="qBB-4O-8e7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uIX-UY-gS4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1290" y="-102"/>
+            <point key="canvasLocation" x="2208" y="-102"/>
         </scene>
         <!--Photos View Controller-->
         <scene sceneID="b9u-6Y-M77">
@@ -37,7 +39,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XhF-Xx-1G6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2152.5" y="-102"/>
+            <point key="canvasLocation" x="3070.5" y="-102"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5rr-ua-ecI">
@@ -77,6 +79,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OlD-jh-WP4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="309" y="-102"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="8kT-h0-kNm">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Xev-d2-pzQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="heb-46-foa">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="uYj-YZ-GOv" kind="relationship" relationship="viewControllers" id="Pl9-VD-vNw"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IA4-Sg-n5G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1290" y="-102"/>
         </scene>
     </scenes>
 </document>
