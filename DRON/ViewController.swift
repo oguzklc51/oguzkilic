@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     var bgImageView : UIImageView = UIImageView()
     var pilotButton : UIButton = UIButton()
     var photosButton : UIButton = UIButton()
+    var icon : UIImageView = UIImageView()
     
     @IBAction func right(sender: UIButton) {
         
@@ -25,6 +26,10 @@ class ViewController: UIViewController {
         bgImageView.frame = CGRect(x: 0, y: 0, width: UIScreen.mainScreen().bounds.size.width, height: UIScreen.mainScreen().bounds.size.height)
         bgImageView.image = UIImage(named:"background")
         self.view.addSubview(bgImageView)
+        
+        icon.frame = CGRect(x: UIScreen.mainScreen().bounds.size.width / 2 - 100 , y: 10, width: 200, height: 200)
+        icon.image = UIImage(named:"arDrone")
+        self.view.addSubview(icon)
         
         
         pilotButton.frame = CGRect(x: 0, y: UIScreen.mainScreen().bounds.size.height / 2, width: UIScreen.mainScreen().bounds.size.width / 2 - 10, height: UIScreen.mainScreen().bounds.size.height / 2)
